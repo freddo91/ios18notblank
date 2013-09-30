@@ -21,6 +21,7 @@
 		DDFA544B17F9C2B3001BF92D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFA542D17F9C2B3001BF92D /* UIKit.framework */; };
 		DDFA545317F9C2B3001BF92D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDFA545117F9C2B3001BF92D /* InfoPlist.strings */; };
 		DDFA545517F9C2B3001BF92D /* demogit04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFA545417F9C2B3001BF92D /* demogit04Tests.m */; };
+		DDFA546017F9C327001BF92D /* hoanglinh.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFA545F17F9C327001BF92D /* hoanglinh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DDFA545017F9C2B3001BF92D /* demogit04Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demogit04Tests-Info.plist"; sourceTree = "<group>"; };
 		DDFA545217F9C2B3001BF92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDFA545417F9C2B3001BF92D /* demogit04Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demogit04Tests.m; sourceTree = "<group>"; };
+		DDFA545E17F9C327001BF92D /* hoanglinh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hoanglinh.h; sourceTree = "<group>"; };
+		DDFA545F17F9C327001BF92D /* hoanglinh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hoanglinh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				DDFA543E17F9C2B3001BF92D /* ViewController.h */,
 				DDFA543F17F9C2B3001BF92D /* ViewController.m */,
 				DDFA544117F9C2B3001BF92D /* Images.xcassets */,
+				DDFA545E17F9C327001BF92D /* hoanglinh.h */,
+				DDFA545F17F9C327001BF92D /* hoanglinh.m */,
 				DDFA543017F9C2B3001BF92D /* Supporting Files */,
 			);
 			path = demogit04;
@@ -251,6 +256,7 @@
 			files = (
 				DDFA544017F9C2B3001BF92D /* ViewController.m in Sources */,
 				DDFA543A17F9C2B3001BF92D /* AppDelegate.m in Sources */,
+				DDFA546017F9C327001BF92D /* hoanglinh.m in Sources */,
 				DDFA543617F9C2B3001BF92D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
